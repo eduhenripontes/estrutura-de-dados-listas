@@ -26,6 +26,10 @@ public class ListaEncadeada <T> {
         noAuxiliar.setProximoNo(novoNo);
     }
 
+    public T get(int index){
+        return getNo(index).getConteudo();
+    }
+
     private No<T> getNo(int index){
         validaIndice(index);
         if(index >= size()){

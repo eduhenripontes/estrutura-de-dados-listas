@@ -45,7 +45,7 @@ public class No<T> {
     public String toStringEncadeado(){
         String str = "No{" +
                 "conteudo=" + conteudo +
-                '}'
+                '}';
 
         if(proximoNo != null){
             str += "->" + proximoNo.toString();
